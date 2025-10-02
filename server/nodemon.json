@@ -1,0 +1,12 @@
+{
+  "name": "nodemon",
+  "exec": "ts-node src/index.ts",
+  "watch": ["src"],
+  "ext": "ts,json",
+  "ignore": ["src/**/*.test.ts"],
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
+
+
